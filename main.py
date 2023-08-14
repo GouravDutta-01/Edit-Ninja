@@ -69,7 +69,7 @@ def processImage(filename, operation):
             newFilename = f"static/{filename}"
             cv2.imwrite(newFilename, median)
             return newFilename
-        case "cbblur":
+        case "cbfilter":
             bilateral = cv2.bilateralFilter(img, 9, 75, 75)
             newFilename = f"static/{filename}"
             cv2.imwrite(newFilename, bilateral)
