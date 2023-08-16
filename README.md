@@ -18,6 +18,8 @@ This is an Image Editing Web App built using Flask that performs image processin
   - Apply Median Blur
   - Apply Bilateral Filter
   - Apply Border
+
+The images uploaded by the user gets saved in the **uploads** folder and the processed image gets saved in the **static** folder of the project source directory.
  
 ***NOTE : This application only supports PNG, JPG, JPEG, GIF image file formats***
 
